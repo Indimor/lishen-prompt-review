@@ -4,11 +4,13 @@ on:
   push:
     paths:
       - 'SC*.md'
+      - 'project-manifest.json'
       - 'scripts/validate_review.py'
       - '.github/workflows/review-check.yml'
   pull_request:
     paths:
       - 'SC*.md'
+      - 'project-manifest.json'
       - 'scripts/validate_review.py'
 
 jobs:
