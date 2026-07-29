@@ -1,0 +1,24 @@
+{
+  "project_id": "20260727-lishen-shenzhu-001",
+  "title": "黎深｜传说｜神祝新章",
+  "source_of_truth": "github",
+  "workflow": "GLM V1 -> 洄光 V2 -> 娜娜酱终审 -> final",
+  "v1_expected_card_count": 89,
+  "v2_target_min": 95,
+  "v2_target_max": 110,
+  "v2_hard_limit": 120,
+  "current_stage": "v1_import_validation",
+  "blocking_issue": "V1 prompt bodies are empty in SC01-SC10",
+  "scenes": {
+    "SC01": {"status": "blocked_missing_v1", "v1_cards": 7},
+    "SC02": {"status": "blocked_missing_v1", "v1_cards": 10},
+    "SC03": {"status": "blocked_missing_v1", "v1_cards": 7},
+    "SC04": {"status": "blocked_missing_v1", "v1_cards": 11},
+    "SC05": {"status": "blocked_missing_v1", "v1_cards": 6},
+    "SC06": {"status": "blocked_missing_v1", "v1_cards": 12},
+    "SC07": {"status": "blocked_missing_v1", "v1_cards": 7},
+    "SC08": {"status": "blocked_missing_v1", "v1_cards": 9},
+    "SC09": {"status": "blocked_missing_v1", "v1_cards": 8},
+    "SC10": {"status": "blocked_missing_v1", "v1_cards": 12}
+  }
+}
